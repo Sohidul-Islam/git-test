@@ -44,8 +44,13 @@
                     </div>
                     <div class="col-12 col-sm-6 align-self-center">
                         
-                        <a role="button" href="#resarve-table" class="btn btn-block btn-sm btn-warning text-dark">Reserve Table</a>
-                        
+                        <!-- <a role="button"  href="#resarve-table" class="btn btn-block btn-sm btn-warning text-dark">Reserve Table</a>
+                         -->
+
+                         <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+                            Tooltip with HTML
+                          </button>
+
                     </div>
                     </div>
                     
@@ -236,6 +241,11 @@
 <script src="node_modules\jquery\dist\jquery.slim.js"></script>
 <script src="node_modules\popper.js\dist\popper.min.js"></script>
 <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip()
+});
+</script>
 </body>
 
 </html>
