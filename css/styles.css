@@ -27,6 +27,22 @@
     margin: 0px;
     color: #0f0f0f;
 }
-.bg-primary{
+.navbar-dark{
     background-color: #5133a5 !important;
+}
+
+.carousel{
+    background-color: #512DA8;
+}
+
+.carousel-item{
+    height: 300px;
+    
+}
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+
 }
